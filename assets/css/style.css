@@ -28,6 +28,8 @@ body{
     font-size: 25px;
 }
 
+/* styling for option boxes */
+
 .quiz-wrapper .options{
     float: left;
     width: 100%;
