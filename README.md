@@ -1,108 +1,193 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+**Premiership Quiz**
 
-Welcome kosullivan7,
+-   [Introduction](#Introduction)
+-   User Experience (UX)
+    -   Target Audience
+    -   Strategy
+    -   Scope
+        -   User Stories
+    -   Structure
+    -   Surface
+-   Features
+    -   Existing Features
+    -   Future Features
+-   Languages Used
+-   Technologies Used
+-   Testing
+    -   Validator Testing
+    -   Responsiveness
+    -   User Stories Testing
+    -   Manual Testing
+    -   Bugs
+    -   Unfixed Bugs
+-   Deployment
+-   Credits
+    -   Content
+    -   Code
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Introduction](#_top)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The Premieship quiz is a fun interactive quiz for people who are fans of English premiership football. Users answer multiple choice questions and are rated on their final score.
 
-## Gitpod Reminders
+Goal
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The goal is to create an entertaining web-based football trivia quiz. I picked football because it is a sport I keenly follow myself. It will appeal to a range of age groups.
 
-`python3 -m http.server`
+**User Experience (UX)**
 
-A blue button should appear to click: _Make Public_,
+**Target Audience**
 
-Another blue button should appear to click: _Open Browser_.
+The quiz targets people of all ages who enjoy quizzes and are specifically interested in English premiership football.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Strategy**
 
-A blue button should appear to click: _Make Public_,
+The purpose of this online quiz is to provide an entertaining online quiz for people of all ages who like English football.
 
-Another blue button should appear to click: _Open Browser_.
+The quiz should be easy for the user to navigate and return to the home page or restart the quiz.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The application should initially be a simple design with enough interactivity to function and entertain. Questions can easily be added as popularity grows.
 
-To log into the Heroku toolbelt CLI:
+**Scope**
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The project scope follows the minimal viable features approach for the initial project. However the scope is such that interactive features to enhance the user experience will be added in future.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The project is to be a simple functioning online quiz game with multiple choice questions. The score will accumulate up to a specified maximum. Initially this will be set to five as the test pool of questions is relatively small but sufficient for the user to enjoy the experience.
 
-------
+The purpose of the site will be clear from the landing page and will be visually attractive to the user. The site will be easy to navigate.
 
-## Release History
+**User Stories**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As the site owner I want to:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-   create an entertaining interactive quiz on the topic of premiership football.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+As a general user I want to:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+1.  play a fun quiz
+2.  navigate easily around the application
+3.  clearly see what question number I am on
+4.  answer reasonably challenging questions on the topic
+5.  see immediately if my answer is right or wrong
+6.  clearly see my accumulating score
+7.  view my final score
+8.  easily restart the game after I finish
+9.  be rated on my knowledge of the subject
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+As a new user I want to
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+-   easily identify what the quiz topic is.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**Structure**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The user experience design is clear and simple with features positioned conventionally. Navigation items are clearly visible on each page signalling the pathway through the site from the home page through to the finish of the quiz.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+[Home Page]
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-   There is one clear call to action button to start the quiz.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[Quiz Page]
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-   The question is clearly visible in the middle of the quiz play area with the four answer choices underneath.
+-   Below the question and answer section is the counter section showing the accumulating number of correct answers and the current question number out of the maximum available questions.
+-   When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Surface**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-   Colours
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    Contrasting, bright colours were used to make the app more visually appealing. A background colour of green with the quiz area itself white. The options buttons for quiz answers had a background colour of \#607d8b. The next button had a background colour of \#ec930d. The score are was a darker green with text in white.
 
-------
+-   Font Colour
 
-## FAQ about the uptime script
+The font colour used was charcoal was white as it is easily read amidst the background colours.
 
-**Why have you added this script?**
+-   Font
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The font selected was Segoe UI as it has a simple, clear look to the user and easily legible.
 
-**How will this affect me?**
+**Features**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+**Existing Features**
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Quiz page
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+On the quiz page there is a 'Score Counter' to show the user's current score as they progress through the quiz:
 
-**So….?**
+There is also a 'Question number' indicator beside the question to show the user which question they are currently answering. The score area also shows how many questions there are in total.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+When the user selects an answer by clicking the answer turns either red for incorrect or green for correct and remains coloured until a new question i
 
-**Can I opt out?**
+The mouse changes to a pointer on all the clickable buttons and answer option to indicate clearly where the user can click for an action.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**Future Features**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Future features to add to improve the user interface would be:
 
-**Anything more?**
+-   In order to add features first the question pool would have to be increased and a function added to ensure that questions were not repeated within the play period of the user.
+-   The ability to save the user name and high scores so the user could return to the quiz to beat their own scores.
+-   Currently the questions are all text-based but expanding to include visual questions with pictures would increase enjoyment for the user.
+-   An audio sound on completion of the game would also enhance user experience.
+-   Given sufficient questions, a list of questions answered correctly and incorrectly could be generated at the end of the quiz.
+-   Images of footballers with football icons could be used.
+-   A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+**Languages Used**
 
----
+-   HTML (Hypertext Markup Language) was used to design the basic website.
+-   CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
+-   JavaScript was used to provide interactivity to the application.
 
-Happy coding!
+**Technologies Used**
+
+Gitpod was used for the IDE
+
+HTML Validator
+
+CSS Validator
+
+**Testing**
+
+Validator Testing
+
+HTML Validator was run at several points during the project and small syntax errors were identified and fixed. At the final stage no errors or warnings were found.
+
+![html validation results](assets/images/html.png "html validation results")
+
+CSS Validator was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors detected.
+![css validation results](assets/images/css.png "css validation results")
+
+
+Lighthouse in Chrome Developer Tools was used to check performance and scored well overall.
+
+**Responsiveness**
+
+The website was tested primarily on Chrome through the design phase. Additional testing was conducted on Mozilla, Edge and Safari browsers with good performance.
+![lighthouse test result](assets/images/lighthouse.png "lighthouse test result")
+
+
+**Deployment**
+
+The site was deployed to GitHub pages. The steps taken to deploy are as follows:
+
+1.  Log in to [GitHub](https://github.com/)
+2.  Navigate to [kosullivan7/Project-2](https://github.com/kosullivan7/Project-2) in the list of repositories
+3.  In the GitHub repository, navigate to the Settings tab
+4.  In Settings scroll down to [GitHub pages](https://github.com/kosullivan7/Project-2/settings/pages) which opens in a new page.
+5.  From the source section drop-down menu, select the Master Branch
+6.  Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address. The link to the live website is here: [Project-2](https://kosullivan7.github.io/Project-2/)
+
+**Credits**
+
+**Content**
+
+Questions were derived mainly from the below website:
+
+-   [Goal](https://www.goal.com/en)
+
+**Code**
+
+-   This tutorial [simplestepcode](https://simplestepscode.com/javascript-quiz-tutorial/) was followed closely for the basic javascript set up of question and answers generation. This was a good tutorial outlining the steps involved.
+
+The following were used as references to check syntax for coding and also for general theory and its application:
+
+-   [w3 schools](https://www.w3schools.com/)
