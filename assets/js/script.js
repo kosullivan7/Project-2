@@ -19,6 +19,8 @@ var app={
                 answer:4
             }            
         ],
+
+        //Load a question using the index
         index:0,
         load:function(){
             if(this.index<=this.questions.length-1){
@@ -28,6 +30,8 @@ var app={
                 opt3.innerHTML=this.questions[this.index].options[2];
                 opt4.innerHTML=this.questions[this.index].options[3];
             }
+
+            //show the end screen
             else {
                 quizbox.innerHTML="Quiz Completed!";
                 ul.style.display="none";
@@ -38,6 +42,8 @@ var app={
             this.index++;
             this.load();
         },
+
+        //check to see if answer is correct or not
         check: function(ele){
             var id=ele.id.split('');
             if(id[id.length-1]==this.questions[this.index].answer){
@@ -49,6 +55,8 @@ var app={
                 ele.className="wrong";
             }
         },
+
+        //prevent clicking on other options once answer has been selected
         preventClick:function(){
             for(let i=0; i<ul.children.length; i++){
                 ul.children[i].style.pointerEvents="none";
@@ -66,6 +74,7 @@ var app={
         }
 }
 
+//event listeners for page reload event, option selected and next button clicked
 window.load=app.load();
 
 function button(ele){
