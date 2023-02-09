@@ -1,3 +1,4 @@
+//Declare the UI elements
 var ul = document.getElementById('ul')
 var nextButton = document.getElementById('btnNext');
 var quizbox = document.getElementById('questionBox')
@@ -17,9 +18,24 @@ var app={
                 q:'Which player with 653 games, has made the most premier league appearances?',
                 options: ['Roy Keane', 'Sol Campbell', 'Gary Neville', 'Gareth Barry'],
                 answer:4
-            }            
+            },
+            {
+                q:'Which team won the first premier league title?',
+                options: ['Manchester United', 'Arsenal', 'Blackburn', 'Liverpool'],
+                answer:1
+            },
+            {
+                q:'With 202 clean sheets, who is the goalie with the best record in the premier league?',
+                options: ['Peter Schmeichel', 'Petr Cech', 'Shay Given', 'Ederson'],
+                answer:2
+            },
+            {
+                q:'The fastest goal in premier league history was 7.69 seconds. Who scored it?',
+                options: ['Ronaldo', 'Sadio Mane', 'Shane Long', 'Thierry Henry'],
+                answer:3
+            }
         ],
-
+       
         //Load a question using the index
         index:0,
         load:function(){
@@ -30,9 +46,9 @@ var app={
                 opt3.innerHTML=this.questions[this.index].options[2];
                 opt4.innerHTML=this.questions[this.index].options[3];
             }
-
-            //show the end screen
+            
             else {
+                //show the end screen
                 quizbox.innerHTML="Quiz Completed!";
                 ul.style.display="none";
                 nextButton.style.display="none";
@@ -42,8 +58,7 @@ var app={
             this.index++;
             this.load();
         },
-
-        //check to see if answer is correct or not
+        //check if answer is correct or not
         check: function(ele){
             var id=ele.id.split('');
             if(id[id.length-1]==this.questions[this.index].answer){
@@ -56,7 +71,7 @@ var app={
             }
         },
 
-        //prevent clicking on other options once answer has been selected
+        //Disable other options once answer has been clicked
         preventClick:function(){
             for(let i=0; i<ul.children.length; i++){
                 ul.children[i].style.pointerEvents="none";
@@ -74,7 +89,7 @@ var app={
         }
 }
 
-//event listeners for page reload event, option selected and next button clicked
+//Create event listeners to listen to page reload event, button click for option and next button clicked
 window.load=app.load();
 
 function button(ele){
