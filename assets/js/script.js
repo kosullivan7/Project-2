@@ -7,7 +7,7 @@ var opt2 = document.getElementById('opt2')
 var opt3 = document.getElementById('opt3')
 var opt4 = document.getElementById('opt4')
 
-var app={
+var app = {
         questions:[
             {
                 q:'With 260 goals, who is the premier leagues top scorer?',
