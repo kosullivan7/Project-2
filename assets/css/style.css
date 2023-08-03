@@ -101,12 +101,16 @@ h1 {
     /* creating css for rules page by creating a rules box and positioning it centrally*/
 
     .rules-board {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         margin-bottom: 50px;
         margin-top: 10v;
         padding-bottom: 30px;
         border: 12px solid rgb(92, 58, 8);
         border-radius: 10px;
+        background-color: green;
     }
 
     .inner-info {
@@ -116,7 +120,7 @@ h1 {
 *{
     box-sizing: border-box;
 }
-/* creating box which will contain all information for the quiz*/
+/* creating box which will contain all information for the quiz on play page*/
 .quiz-wrapper{
     height: 400px;
     width: 600px;
