@@ -97,6 +97,7 @@ h1 {
         line-height: 1.5;
         border-radius: 0.25rem;
     }
+    
     /* adding cs styling to body to center the contents to the middle of web-page*/
     .parent {
         display: flex;
@@ -142,13 +143,9 @@ h1 {
 }
 
 
-
-
-
-
 /* creating box which will contain all information for the quiz on play page*/
 .quiz-wrapper{
-    height: 400px;
+    height: 500px;
     width: 600px;
     background-color: white;
     margin: 30px auto;
