@@ -145,7 +145,6 @@ h1 {
 
 /* creating box which will contain all information for the quiz on play page*/
 .quiz-wrapper{
-    height: 500px;
     width: 600px;
     background-color: white;
     margin: 30px auto;
