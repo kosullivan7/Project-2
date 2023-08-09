@@ -13,17 +13,17 @@
 -   [Features](#features)
     -   Existing Features
     -   Future Features
--   Languages Used
--   Technologies Used
--   Testing
+-   [Languages-Used](#languages-used)
+-   [Technologies-Used](#technologies-used)
+-   [Testing](#testing)
     -   Validator Testing
     -   Responsiveness
     -   User Stories Testing
     -   Manual Testing
     -   Bugs
     -   Unfixed Bugs
--   Deployment
--   Credits
+-   [Deployment](#deployment)
+-   [Credits](#credits)
     -   Content
     -   Code
 
@@ -142,13 +142,13 @@ Future features to add to improve the user interface would be:
 -   Images of footballers with football icons could be used.
 -   A navigation option would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
-**Languages Used**
+# Languages Used
 
 -   HTML (Hypertext Markup Language) was used to design the basic website.
 -   CSS (Cascading Style Sheets) to style the website and make it look more appealing to the user.
 -   JavaScript was used to provide interactivity to the application.
 
-**Technologies Used**
+# Technologies Used
 
 Gitpod was used for the IDE
 
@@ -156,7 +156,7 @@ HTML Validator
 
 CSS Validator
 
-**Testing**
+# Testing
 
 Validator Testing
 
@@ -176,7 +176,7 @@ The website was tested primarily on Chrome through the design phase. Additional 
 ![lighthouse test result](assets/images/lighthousem.png "lighthouse test result")
 
 
-**Deployment**
+# Deployment
 
 The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 
@@ -187,7 +187,7 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 5.  From the source section drop-down menu, select the Master Branch
 6.  Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address. The link to the live website is here: [Project-2](https://kosullivan7.github.io/Project-2/)
 
-**Credits**
+# Credits
 
 **Content**
 
