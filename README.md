@@ -43,7 +43,7 @@ The quiz targets people of all ages who enjoy quizzes and are specifically inter
 
 **Strategy**
 
-The purpose of this online quiz is to provide an entertaining online quiz for people of all ages who like English football.
+The purpose of this online quiz is to provide an entertaining online quiz for people of all ages who like English Premier League football.
 
 The quiz should be easy for the user to navigate and return to the home page or restart the quiz.
 
@@ -85,7 +85,8 @@ The user experience design is clear and simple with features positioned conventi
 
 [Home Page]
 
--   There is one clear call to action button to start the quiz.
+-   There is a clear call to action button to start the quiz.
+- There is also a link to a rules page which easily explains how to play the game.
 
 [Rules Page]
 
@@ -106,11 +107,13 @@ The user experience design is clear and simple with features positioned conventi
 
 -   Colours
 
-    Contrasting, bright colours were used to make the app more visually appealing. A background colour of green with the quiz area itself white. The options buttons for quiz answers had a background colour of \#607d8b. The next button had a background colour of \#ec930d. The score are was a darker green with text in white.
+    Contrasting, bright colours were used to make the app more visually appealing. The Home and Rules page have a background colour of yellow. The container has a background colour of dark green with a brown border to stand out. The links buttons are in white to add more contrast. 
+    
+    A background colour of yellow with the quiz area container white. The options buttons for quiz answers had a background colour of grey. The navigation buttons and question area are a teal colour.  The score are was a darker green. 
 
 -   Font Colour
 
-The font colour used was charcoal was white as it is easily read amidst the background colours.
+The font colour used in the home and rule pages is black apart from the links buttons which are white. All font on the quiz page is white in order to be more legible.
 
 -   Font
 
