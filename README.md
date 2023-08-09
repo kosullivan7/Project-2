@@ -1,6 +1,6 @@
 **Premiership Quiz**
 
--   [Introduction](#Introduction)
+-   [Introduction](#introduction)
 -   User Experience (UX)
     -   Target Audience
     -   Strategy
