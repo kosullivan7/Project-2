@@ -114,7 +114,7 @@ The font colour used was charcoal was white as it is easily read amidst the back
 
 The font selected was Segoe UI as it has a simple, clear look to the user and easily legible.
 
-#Features
+# Features
 
 **Existing Features**
 
