@@ -1,4 +1,6 @@
-**Premiership Quiz**
+**Premiership Quiz** is an interactive website designed for English premiership football fans of all ages. 
+
+![am i responsive](assets/images/amires1.png "am i responsive")
 
 -   [Introduction](#introduction)
 -   User Experience (UX)
