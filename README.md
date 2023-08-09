@@ -178,6 +178,10 @@ Lighthouse in Chrome Developer Tools was used to check performance and scored we
 The website was tested primarily on Chrome through the design phase. Additional testing was conducted on Mozilla, Edge and Safari browsers with good performance.
 ![lighthouse test result](assets/images/lighthousem.png "lighthouse test result")
 
+Powermapper was used to test on other browsers
+
+![powermapper test result](assets/images/powermapper.png "powermapper test result")
+
 
 # Deployment
 
