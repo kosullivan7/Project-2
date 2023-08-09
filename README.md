@@ -79,17 +79,26 @@ As a new user I want to
 
 **Structure**
 
-The user experience design is clear and simple with features positioned conventionally. Navigation items are clearly visible on each page signalling the pathway through the site from the home page through to the finish of the quiz.
+The user experience design is clear and simple with features positioned conventionally. Navigation items are clearly visible on each page signalling the pathway through the site from the home page through to the rules page and actual quiz page.
 
 [Home Page]
 
 -   There is one clear call to action button to start the quiz.
+
+[Rules Page]
+
+- The rules of the quiz are clearly stated in bullet form for quick perusal. 
+- Below the rules are navigation buttons to the Home page and Play the quiz page.
 
 [Quiz Page]
 
 -   The question is clearly visible in the middle of the quiz play area with the four answer choices underneath.
 -   Below the question and answer section is the counter section showing the accumulating number of correct answers and the current question number out of the maximum available questions.
 -   When the user selects the answer the colour of the answer changes to red or green to indicate correct or incorrect before displaying the next question.
+- The user cannot move onto the next question without answering the current question.
+- Below the score there are links to the landing page and also a Play again button.
+- On pressing the Play again button the quiz will refresh with a new random order of questions.
+
 
 **Surface**
 
