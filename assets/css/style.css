@@ -286,9 +286,14 @@ h1 {
                    margin-right: 30px;
                 }
     .quiz-wrapper .options {
-        width: auto;
+        margin-left: 0;
+    
+    }
+    .quiz-wrapper .options ul li {
+        width: 100%;
 
     }
+
 }
 
 
