@@ -129,7 +129,7 @@ Future features to add to improve the user interface would be:
 -   An audio sound on completion of the game would also enhance user experience.
 -   Given sufficient questions, a list of questions answered correctly and incorrectly could be generated at the end of the quiz.
 -   Images of footballers with football icons could be used.
--   A navigation menu would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
+-   A navigation option would be added to the home page along with the future features above to enable the user to directly access their high scores and for a new user to view a rules/instructions page
 
 **Languages Used**
 
@@ -162,7 +162,7 @@ Lighthouse in Chrome Developer Tools was used to check performance and scored we
 **Responsiveness**
 
 The website was tested primarily on Chrome through the design phase. Additional testing was conducted on Mozilla, Edge and Safari browsers with good performance.
-![lighthouse test result](assets/images/lighthouse.png "lighthouse test result")
+![lighthouse test result](assets/images/lighthousem.png "lighthouse test result")
 
 
 **Deployment**
