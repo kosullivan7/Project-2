@@ -25,7 +25,7 @@
     -   Content
     -   Code
 
-[Introduction](#_top)
+# Introduction
 
 The Premieship quiz is a fun interactive quiz for people who are fans of English premiership football. Users answer multiple choice questions and are rated on their final score.
 
